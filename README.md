@@ -1,6 +1,6 @@
 # Questões Práticas 
 
-1° Atividade de linguagem de script    
+2° Atividade de linguagem de script    
 <br>
 
 > [!NOTE]
@@ -29,9 +29,9 @@ const objParse = JSON.parse(json); // { nome: "Kaique", idade: 10 }
 ```
 
 ### 3°: Considerando a string "JavaScript é baseada em ECMA Script", quais métodos você usaria para:
-  -Verificar se contém a palavra "Script"*: `includes()`
-  -Remover a palavra "JavaScript"*: `replace()`
-  -Substituir "baseada" por "tem origem"*: `replace()`
+  -Verificar se contém a palavra "Script": `includes()`
+  -Remover a palavra "JavaScript": `replace()`
+  -Substituir "baseada" por "tem origem": `replace()`
 ```
 const str = "JavaScript é baseada em ECMA Script";
 
