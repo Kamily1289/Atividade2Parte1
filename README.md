@@ -6,13 +6,13 @@
 > [!NOTE]
 > Perguntas e Respostas:
 
-###### 1° O que é JSON e por que ele se tornou tão popular para troca de dados entre aplicações?
-** JSON (JavaScript Object Notation) é um formato de troca de dados leve e fácil de ler/escrever. Ele se tornou popular devido à sua simplicidade e facilidade de uso em diferentes linguagens de programação.**
+#### 1° O que é JSON e por que ele se tornou tão popular para troca de dados entre aplicações?
 
+**JSON (JavaScript Object Notation) é um formato de troca de dados leve e fácil de ler/escrever. Ele se tornou popular devido à sua simplicidade e facilidade de uso em diferentes linguagens de programação.**
 
+<br>
 ###### 2° Qual a diferença fundamental entre `JSON.stringify()` e `JSON.parse()`? Dê um exemplo prático de quando usar cada um.
-**`JSON.stringify()`: Converte um objeto JavaScript para uma string JSON.
-- `JSON.parse()`: Converte uma string JSON para um objeto JavaScript.**
+**`JSON.stringify()`: Converte um objeto JavaScript para uma string. JSON.`JSON.parse()`: Converte uma string JSON para um objeto JavaScript.**
 
 ```
 
@@ -26,7 +26,7 @@ const objParse = JSON.parse(json); // { nome: "Kaique", idade: 10 }
 
 
 ```
-
+<br>
 ###### 3: Considerando a string "JavaScript é baseada em ECMA Script", quais métodos você usaria para:
 - *Verificar se contém a palavra "Script"*: `includes()`
 - *Remover a palavra "JavaScript"*: `replace()`
