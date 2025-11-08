@@ -32,13 +32,16 @@ const objParse = JSON.parse(json); // { nome: "Kaique", idade: 10 }
   -Verificar se contém a palavra "Script"*: `includes()`
   -Remover a palavra "JavaScript"*: `replace()`
   -Substituir "baseada" por "tem origem"*: `replace()`
+```
+const str = "JavaScript é baseada em ECMA Script";
 
-** **
+console.log(str.includes("Script")); // true
+console.log(str.replace("JavaScript", "")); // " é baseada em ECMA Script"
+console.log(str.replace("baseada", "tem origem")); // "JavaScript é tem origem em ECMA Script"
 
-
-
+```
 ### 4°: Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas?
-**A vantagem é que template strings permitem uma sintaxe mais clara, legível e mesmo erros, para strings complexas com variáveis. **
+**A vantagem é que template strings permitem uma sintaxe mais clara, legível e menos erros, para strings complexas com variáveis.**
 
 > [!NOTE]
 > CÓDIGO EXEMPLO:
