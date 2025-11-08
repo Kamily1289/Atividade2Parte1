@@ -38,7 +38,7 @@ const objParse = JSON.parse(json); // { nome: "Kaique", idade: 10 }
 
 
 ### 4°: Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas?
-**A vantagem é que template strings permitem uma sintaxe mais clara e legível para strings complexas com variáveis.**
+**A vantagem é que template strings permitem uma sintaxe mais clara, legível e mesmo erros, para strings complexas com variáveis. **
 
 > [!NOTE]
 > CÓDIGO EXEMPLO:
